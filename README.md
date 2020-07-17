@@ -4,7 +4,7 @@
 </h1>
 
 <div align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=#2ECDFF&labelColor=F0F0F5">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=2ECDFF&labelColor=F0F0F5">
 </div>
 <p align="center">
   
