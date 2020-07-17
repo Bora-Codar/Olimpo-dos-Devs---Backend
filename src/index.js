@@ -6,7 +6,9 @@ const routes = require('./routes/routes');
 app.use('/', routes);
 app.use(express.json());
 
-const PORT = 3333;
+require('dotenv').config({ path: 'variables.env' });
+
+const PORT = process.env.PORT || 3333;
 
 app.listen(PORT, ()=>{
     console.log(`Servidor Rodando na Porta: ${PORT}`);
