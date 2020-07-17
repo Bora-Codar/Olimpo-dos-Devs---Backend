@@ -5,7 +5,6 @@
 
 <div align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=5568f9&labelColor=111116">
-  <img alt="License" src="https://img.shields.io/static/v1?label=Telegram&message=Junte-se à comunidade&color=2da0d7&labelColor=111116">
 </div>
 <p align="center">
   
