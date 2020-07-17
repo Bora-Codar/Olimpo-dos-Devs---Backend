@@ -6,7 +6,7 @@ const routes = require('./routes/routes');
 app.use('/', routes);
 app.use(express.json());
 
-require('dotenv').config({ path: 'variables.env' });
+require('dotenv').config({ path: '.env' });
 
 const PORT = process.env.PORT || 3333;
 
