@@ -33,6 +33,27 @@ Queremos ainda tentar melhorar a expereriência entre professor e aluno através
 
 Para ver o layout idealizado para a plataforma basta clicar [aqui](https://www.figma.com/file/vGcILlK7mydfC6NChtJ0pZ/Olimpo-dos-Devs?node-id=0%3A1)
 
+## 📂 Estrutura de diretórios
+
+```
+.github/
+node_modules/
+project_src/
+src/
+  controllers/
+    testeController.js
+  routes/
+    routes.js
+  .env
+  .env.example
+  index.js
+.gitignore
+LICENSE.md
+package.json
+package-lock.json
+README.md   
+```
+
 ## ⬇️ Instalação
 
 - `git clone https://github.com/Bora-Codar/Olimpo-dos-Devs---Backend.git`;
