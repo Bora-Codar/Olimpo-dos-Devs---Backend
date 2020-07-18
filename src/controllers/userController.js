@@ -1,4 +1,4 @@
-const testController = {
+const userController = {
 
     index:(req, res)=>{
         res.status(200).json({ message: "Olá Mundo!" });
@@ -6,4 +6,4 @@ const testController = {
 
 }
 
-module.exports = testController;
+module.exports = userController;
