@@ -12,8 +12,8 @@
 
 ## ⚙️ Requisítos
 
-- [Node.js](https://nodejs.org/en/)
-- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/) ( obrigatório )
+- [Git](https://git-scm.com/) ( opcional )
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -36,22 +36,28 @@ Para ver o layout idealizado para a plataforma basta clicar [aqui](https://www.f
 ## 📂 Estrutura de diretórios
 
 ```
-.github/
-node_modules/
+
 project_src/
+public/
+  assets/
+  pages/
+  scripts/
+  styles/
+  index.html
 src/
-  controllers/
-    testeController.js
-  routes/
-    routes.js
-  .env
-  .env.example
-  index.js
+  config/
+    index.js
+  controller/
+    index.js
+  database/
+  app.js
+  routes.js
+  server.js
+.env
 .gitignore
 LICENSE.md
 package.json
-package-lock.json
-README.md   
+README.md
 ```
 
 ## ⬇️ Instalação
@@ -59,7 +65,7 @@ README.md
 - `git clone https://github.com/Bora-Codar/Olimpo-dos-Devs---Backend.git`;
 - `cd Olimpo-dos-Devs---Backend`;
 - `npm install`;
-- `npm dev`.
+- `npm run dev`.
 
 ## 🤔 Como contribuir
 
